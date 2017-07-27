@@ -1,12 +1,12 @@
 const defaultText = 
-`Heading
-=======
+`
+## Get Started
 
-Sub-heading
------------
- 
-### Another deeper heading
- 
+Just edit the text inside this \`textarea\` and watch how the result gets updated.
+This application is built with ReactJS and styled with Bootstrap.
+
+### Some Markdown Sample 
+
 Paragraphs are separated
 by a blank line.
 
@@ -28,9 +28,9 @@ Numbered list:
   2. oranges
   3. pears
 
-The rain---not the reign---in
-Spain.
+---
 
-*[Herman Fassett](https://freecodecamp.com/hermanfassett)*`
+*Created by [John Alcher](https://alchermd.github.io/)*
+`
 
 export default defaultText
