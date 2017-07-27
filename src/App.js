@@ -3,8 +3,15 @@ import React from 'react'
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Hello, World!</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            {/*textarea*/}
+          </div>
+          <div className="col-md-6">
+            {/*result area*/}
+          </div>
+        </div>
       </div>
     )
   }
