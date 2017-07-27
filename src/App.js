@@ -1,4 +1,5 @@
 import React from 'react'
+import MarkdownInputArea from './MarkdownInputArea'
 
 class App extends React.Component {
   render() {
@@ -6,7 +7,7 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            {/*textarea*/}
+            <MarkdownInputArea />
           </div>
           <div className="col-md-6">
             {/*result area*/}
