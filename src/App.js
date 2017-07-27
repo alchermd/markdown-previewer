@@ -9,6 +9,16 @@ class App extends React.Component {
     this.state = {
       markdownText: defaultText
     }
+
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  /**
+   * 
+   * @param {string} newText - an updated text from the textarea.
+   */
+  handleChange(newText) {
+    this.setState({markdownText: newText})
   }
 
   render() {
@@ -18,7 +28,7 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <MarkdownInputArea inputText={markdownText}/>
+            <MarkdownInputArea inputText={markdownText} handleChange={this.handleChange}/>
           </div>
           <div className="col-md-6">
             <MarkdownOutputDisplay outputText={markdownText} />
