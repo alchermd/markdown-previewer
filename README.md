@@ -1,9 +1,10 @@
 # Markdown Previewer
 
-<center>
-  <img src="meta/app-preview.png">
+<img src="meta/app-preview.png">
+
+<div align="center">
   <i>Get instant feedback as you type</i>
-</center>
+</div>
 
 ## Usage
 
